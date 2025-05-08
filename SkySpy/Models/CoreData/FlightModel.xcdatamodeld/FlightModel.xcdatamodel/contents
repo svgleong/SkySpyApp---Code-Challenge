@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="23H527" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AirlineInfoEntity" representedClassName="AirlineInfoEntity" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="flights" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FlightInfoEntity" inverseName="airline" inverseEntity="FlightInfoEntity"/>
+    </entity>
+    <entity name="FavoriteAirline" representedClassName="FavoriteAirline" syncable="YES">
+        <attribute name="airlineName" optional="YES" attributeType="String"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="airlineName"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="FlightInfoEntity" representedClassName="FlightInfoEntity" syncable="YES">
+        <attribute name="aircraftRegistration" optional="YES" attributeType="String"/>
+        <attribute name="airlineIata" attributeType="String"/>
+        <attribute name="airlineName" attributeType="String"/>
+        <attribute name="altitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="arrivalAirport" optional="YES" attributeType="String"/>
+        <attribute name="arrivalAirportName" optional="YES" attributeType="String"/>
+        <attribute name="arrivalTime" attributeType="String"/>
+        <attribute name="arrivalTimezone" attributeType="String"/>
+        <attribute name="delayInMinutes" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="departureAirport" optional="YES" attributeType="String"/>
+        <attribute name="departureAirportName" optional="YES" attributeType="String"/>
+        <attribute name="departureTime" optional="YES" attributeType="String"/>
+        <attribute name="departureTimezone" attributeType="String"/>
+        <attribute name="flightDate" optional="YES" attributeType="String"/>
+        <attribute name="flightNumber" attributeType="String"/>
+        <attribute name="gate" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isLive" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="status" optional="YES" attributeType="String"/>
+        <attribute name="terminal" optional="YES" attributeType="String"/>
+        <relationship name="airline" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AirlineInfoEntity" inverseName="flights" inverseEntity="AirlineInfoEntity"/>
+    </entity>
+</model>

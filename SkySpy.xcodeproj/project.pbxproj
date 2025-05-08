@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C960C4522DC6B27000CB906F /* AirlineInfoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960C4512DC6B27000CB906F /* AirlineInfoEntity+CoreDataProperties.swift */; };
+		C960C4532DC6B27000CB906F /* AirlineInfoEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960C4502DC6B27000CB906F /* AirlineInfoEntity+CoreDataClass.swift */; };
+		C960C45A2DC770A100CB906F /* FavoriteAirline+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960C4592DC770A100CB906F /* FavoriteAirline+CoreDataProperties.swift */; };
+		C960C45B2DC770A100CB906F /* FavoriteAirline+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C960C4582DC770A100CB906F /* FavoriteAirline+CoreDataClass.swift */; };
+		C9BEBA112DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEBA102DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataProperties.swift */; };
+		C9BEBA122DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEBA0F2DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9BEB92D2DC28C4F00D6D0CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9BEB9142DC28C4E00D6D0CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9BEB91B2DC28C4E00D6D0CD;
+			remoteInfo = SkySpy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C960C4502DC6B27000CB906F /* AirlineInfoEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AirlineInfoEntity+CoreDataClass.swift"; path = "SkySpy/Models/CoreData/AirlineInfoEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C960C4512DC6B27000CB906F /* AirlineInfoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AirlineInfoEntity+CoreDataProperties.swift"; path = "SkySpy/Models/CoreData/AirlineInfoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C960C4582DC770A100CB906F /* FavoriteAirline+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FavoriteAirline+CoreDataClass.swift"; path = "SkySpy/Models/CoreData/FavoriteAirline+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C960C4592DC770A100CB906F /* FavoriteAirline+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FavoriteAirline+CoreDataProperties.swift"; path = "SkySpy/Models/CoreData/FavoriteAirline+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C9BEB91C2DC28C4E00D6D0CD /* SkySpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkySpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BEB92C2DC28C4F00D6D0CD /* SkySpyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkySpyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BEBA0F2DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FlightInfoEntity+CoreDataClass.swift"; path = "SkySpy/Models/CoreData/FlightInfoEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C9BEBA102DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FlightInfoEntity+CoreDataProperties.swift"; path = "SkySpy/Models/CoreData/FlightInfoEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C960C4FE2DC9322500CB906F /* Exceptions for "SkySpyTests" folder in "SkySpyTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ExampleResponses/flights_invalid_response.json,
+			);
+			target = C9BEB92B2DC28C4F00D6D0CD /* SkySpyTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		C960C50B2DC943DC00CB906F /* Exceptions for "SkySpyTests" folder in "Compile Sources" phase from "SkySpyTests" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = C9BEB9282DC28C4F00D6D0CD /* Sources */;
+			membershipExceptions = (
+				ExampleResponses/flights_invalid_response.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C9BEB91E2DC28C4E00D6D0CD /* SkySpy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkySpy;
+			sourceTree = "<group>";
+		};
+		C9BEB92F2DC28C4F00D6D0CD /* SkySpyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C960C4FE2DC9322500CB906F /* Exceptions for "SkySpyTests" folder in "SkySpyTests" target */,
+				C960C50B2DC943DC00CB906F /* Exceptions for "SkySpyTests" folder in "Compile Sources" phase from "SkySpyTests" target */,
+			);
+			path = SkySpyTests;
+			sourceTree = "<group>";
+		};
+		C9BEB9392DC28C4F00D6D0CD /* SkySpyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SkySpyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BEB9192DC28C4E00D6D0CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BEB9292DC28C4F00D6D0CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BEB9132DC28C4E00D6D0CD = {
+			isa = PBXGroup;
+			children = (
+				C960C4582DC770A100CB906F /* FavoriteAirline+CoreDataClass.swift */,
+				C960C4592DC770A100CB906F /* FavoriteAirline+CoreDataProperties.swift */,
+				C960C4502DC6B27000CB906F /* AirlineInfoEntity+CoreDataClass.swift */,
+				C960C4512DC6B27000CB906F /* AirlineInfoEntity+CoreDataProperties.swift */,
+				C9BEBA0F2DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataClass.swift */,
+				C9BEBA102DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataProperties.swift */,
+				C9BEB91E2DC28C4E00D6D0CD /* SkySpy */,
+				C9BEB92F2DC28C4F00D6D0CD /* SkySpyTests */,
+				C9BEB9392DC28C4F00D6D0CD /* SkySpyUITests */,
+				C9BEB91D2DC28C4E00D6D0CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BEB91D2DC28C4E00D6D0CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BEB91C2DC28C4E00D6D0CD /* SkySpy.app */,
+				C9BEB92C2DC28C4F00D6D0CD /* SkySpyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BEB91B2DC28C4E00D6D0CD /* SkySpy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BEB9402DC28C4F00D6D0CD /* Build configuration list for PBXNativeTarget "SkySpy" */;
+			buildPhases = (
+				C9BEB9182DC28C4E00D6D0CD /* Sources */,
+				C9BEB9192DC28C4E00D6D0CD /* Frameworks */,
+				C9BEB91A2DC28C4E00D6D0CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C9BEB91E2DC28C4E00D6D0CD /* SkySpy */,
+			);
+			name = SkySpy;
+			packageProductDependencies = (
+			);
+			productName = SkySpy;
+			productReference = C9BEB91C2DC28C4E00D6D0CD /* SkySpy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9BEB92B2DC28C4F00D6D0CD /* SkySpyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BEB9432DC28C4F00D6D0CD /* Build configuration list for PBXNativeTarget "SkySpyTests" */;
+			buildPhases = (
+				C9BEB9282DC28C4F00D6D0CD /* Sources */,
+				C9BEB9292DC28C4F00D6D0CD /* Frameworks */,
+				C9BEB92A2DC28C4F00D6D0CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9BEB92E2DC28C4F00D6D0CD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C9BEB92F2DC28C4F00D6D0CD /* SkySpyTests */,
+			);
+			name = SkySpyTests;
+			packageProductDependencies = (
+			);
+			productName = SkySpyTests;
+			productReference = C9BEB92C2DC28C4F00D6D0CD /* SkySpyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BEB9142DC28C4E00D6D0CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C9BEB91B2DC28C4E00D6D0CD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C9BEB92B2DC28C4F00D6D0CD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C9BEB91B2DC28C4E00D6D0CD;
+					};
+				};
+			};
+			buildConfigurationList = C9BEB9172DC28C4E00D6D0CD /* Build configuration list for PBXProject "SkySpy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BEB9132DC28C4E00D6D0CD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C9BEB91D2DC28C4E00D6D0CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BEB91B2DC28C4E00D6D0CD /* SkySpy */,
+				C9BEB92B2DC28C4F00D6D0CD /* SkySpyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BEB91A2DC28C4E00D6D0CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BEB92A2DC28C4F00D6D0CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BEB9182DC28C4E00D6D0CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BEBA112DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataProperties.swift in Sources */,
+				C9BEBA122DC6A7DF00D6D0CD /* FlightInfoEntity+CoreDataClass.swift in Sources */,
+				C960C4522DC6B27000CB906F /* AirlineInfoEntity+CoreDataProperties.swift in Sources */,
+				C960C4532DC6B27000CB906F /* AirlineInfoEntity+CoreDataClass.swift in Sources */,
+				C960C45A2DC770A100CB906F /* FavoriteAirline+CoreDataProperties.swift in Sources */,
+				C960C45B2DC770A100CB906F /* FavoriteAirline+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9BEB9282DC28C4F00D6D0CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9BEB92E2DC28C4F00D6D0CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9BEB91B2DC28C4E00D6D0CD /* SkySpy */;
+			targetProxy = C9BEB92D2DC28C4F00D6D0CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9BEB93E2DC28C4F00D6D0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BEB93F2DC28C4F00D6D0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9BEB9412DC28C4F00D6D0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkySpy/Preview Content\"";
+				DEVELOPMENT_TEAM = BVAG48GGJU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofialeong.SkySpy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9BEB9422DC28C4F00D6D0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkySpy/Preview Content\"";
+				DEVELOPMENT_TEAM = BVAG48GGJU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofialeong.SkySpy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9BEB9442DC28C4F00D6D0CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVAG48GGJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofialeong.SkySpyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkySpy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkySpy";
+			};
+			name = Debug;
+		};
+		C9BEB9452DC28C4F00D6D0CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BVAG48GGJU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sofialeong.SkySpyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkySpy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkySpy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BEB9172DC28C4E00D6D0CD /* Build configuration list for PBXProject "SkySpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BEB93E2DC28C4F00D6D0CD /* Debug */,
+				C9BEB93F2DC28C4F00D6D0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BEB9402DC28C4F00D6D0CD /* Build configuration list for PBXNativeTarget "SkySpy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BEB9412DC28C4F00D6D0CD /* Debug */,
+				C9BEB9422DC28C4F00D6D0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BEB9432DC28C4F00D6D0CD /* Build configuration list for PBXNativeTarget "SkySpyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BEB9442DC28C4F00D6D0CD /* Debug */,
+				C9BEB9452DC28C4F00D6D0CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BEB9142DC28C4E00D6D0CD /* Project object */;
+}
