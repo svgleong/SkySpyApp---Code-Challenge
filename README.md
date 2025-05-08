@@ -175,6 +175,8 @@ SkySpy implements a testing strategy with focus on testability:
 
 5. **Incomplete API Documentation**: The AviationStack API documentation lacks comprehensive details about the JSON schema. To handle inconsistencies and prevent app crashes, many model properties are implemented as optional in the data models, making the app more resilient to unexpected API responses.
 
+6. **Inconsistent API Responses**: The API responses often don't include all the information that should be available according to the documentation. To test the filters with most cases and see flights on a map, it's recommended to use the mock response file `flights_response.json` which contains more complete data for testing purposes.
+
 
 ## Suggestions for Future Improvements
 
