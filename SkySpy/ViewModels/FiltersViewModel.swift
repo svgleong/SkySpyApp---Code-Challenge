@@ -43,9 +43,7 @@ class FiltersViewModel: ObservableObject {
     }
     
     func handleFlightStatusTap(_ status: FlightStatus) {
-        print("Before toggle: \(selectedStatuses)")
         toggle(status, in: &selectedStatuses)
-        print("After toggle: \(selectedStatuses)")
     }
 
     func handleDelayTap(_ delay: DelayCategory) {
@@ -72,6 +70,5 @@ extension FiltersViewModel {
         } else {
             set.insert(item)
         }
-        print("After toggle 1: \(selectedStatuses)")
     }
 }

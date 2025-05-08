@@ -96,8 +96,6 @@ extension FlightsViewModelTests {
         
         await viewModel.fetchData()
         
-        print("State 1 \(viewModel.state)")
-        
         if case .failure = viewModel.state {
             XCTAssertTrue(true)
         } else {
@@ -128,8 +126,6 @@ extension FlightsViewModelTests {
         }
         
         await viewModel.fetchData()
-        
-        print("State 2 \(viewModel.state)")
         
         if case .failure = viewModel.state {
             XCTAssertTrue(true)
